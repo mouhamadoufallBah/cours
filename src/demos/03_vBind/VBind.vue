@@ -7,8 +7,6 @@ const isTrue = true;
 <template>
   <section class="card">
     <h2>03_VBind</h2>
-    <p>Premiere composant vue(sfc(Single File Component))</p>
-
     <img :src="photo" alt="" srcset="" />
     <button :disabled=isTrue>CLique</button>
   </section>
