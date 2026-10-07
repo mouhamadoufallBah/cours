@@ -1,10 +1,14 @@
 <script setup>
+const photo =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBfsihCjIV5Ok98Nq7kuvkzQdj0amGaw4zHjtUfkyKgg&s=10";
 </script>
 
 <template>
   <section class="card">
     <h2>03_VBind</h2>
     <p>Premiere composant vue(sfc(Single File Component))</p>
+
+    <img :src="photo" alt="" srcset="" />
   </section>
 </template>
 
@@ -14,6 +18,5 @@
   padding: 12px;
   border: 1px dashed #ccc;
   border-radius: 10px;
-
 }
 </style>
