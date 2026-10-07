@@ -1,6 +1,7 @@
 <script setup>
 const photo =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBfsihCjIV5Ok98Nq7kuvkzQdj0amGaw4zHjtUfkyKgg&s=10";
+const isTrue = true;
 </script>
 
 <template>
@@ -9,6 +10,7 @@ const photo =
     <p>Premiere composant vue(sfc(Single File Component))</p>
 
     <img :src="photo" alt="" srcset="" />
+    <button :disabled=isTrue>CLique</button>
   </section>
 </template>
 
