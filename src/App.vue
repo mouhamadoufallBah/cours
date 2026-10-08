@@ -7,7 +7,8 @@
 // import Event from './demos/05_event/FormEvent.vue'
 // import Reactive from './demos/06_reactive/Reactive.vue'
 // import Computed from "./demos/07_computed/Computed.vue";
-import ConditionnalRendering from "./demos/08_conditional_rendering/ConditionalRendering.vue";
+// import ConditionnalRendering from "./demos/08_conditional_rendering/ConditionalRendering.vue";
+import For from "./demos/09_For/For.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import ConditionnalRendering from "./demos/08_conditional_rendering/ConditionalR
     <!-- <Event/> -->
     <!-- <Reactive/> -->
     <!-- <Computed /> -->
-    <ConditionnalRendering />
+    <!-- <ConditionnalRendering /> -->
+    <For />
   </section>
 </template>
