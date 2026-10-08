@@ -3,7 +3,8 @@
 // import Interpolation from './demos/02_interpolation/Interpolation.vue';
 // import VBind from './demos/03_vBind/VBind.vue';
 // import DynamicAttribut from './demos/04_dynamic_attribut/DynamicAttribut.vue'
-import Event from './demos/05_event/Event.vue'
+// import Event from './demos/05_event/Event.vue'
+import Event from './demos/05_event/FormEvent.vue'
 </script>
 
 <template>
