@@ -13,11 +13,15 @@ function addCart() {
   <section class="card">
     <h2>12 - Conditional Rendering</h2>
 
-    <p v-show="items.length == 0">
+    <!-- <p v-show="items.length == 0">
+      🛒 Panier vide
+    </p> -->
+
+    <p v-if="items.length == 0">
       🛒 Panier vide
     </p>
 
-    <ul>
+    <ul v-else>
       <li v-for="(i, index) in items" :key="index">
         {{ i }}
       </li>
