@@ -5,16 +5,18 @@
 // import DynamicAttribut from './demos/04_dynamic_attribut/DynamicAttribut.vue'
 // import Event from './demos/05_event/Event.vue'
 // import Event from './demos/05_event/FormEvent.vue'
-import Reactive from './demos/06_reactive/Reactive.vue'
+// import Reactive from './demos/06_reactive/Reactive.vue'
+import Computed from "./demos/07_computed/Computed.vue";
 </script>
 
 <template>
   <section>
     <!-- <HelloWorld /> -->
     <!-- <Interpolation/> -->
-     <!-- <VBind/> -->
-      <!-- <DynamicAttribut/> -->
-      <!-- <Event/> -->
-       <Reactive/>
- </section>
+    <!-- <VBind/> -->
+    <!-- <DynamicAttribut/> -->
+    <!-- <Event/> -->
+    <!-- <Reactive/> -->
+    <Computed />
+  </section>
 </template>
