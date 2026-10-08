@@ -4,7 +4,8 @@
 // import VBind from './demos/03_vBind/VBind.vue';
 // import DynamicAttribut from './demos/04_dynamic_attribut/DynamicAttribut.vue'
 // import Event from './demos/05_event/Event.vue'
-import Event from './demos/05_event/FormEvent.vue'
+// import Event from './demos/05_event/FormEvent.vue'
+import Reactive from './demos/06_reactive/Reactive.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Event from './demos/05_event/FormEvent.vue'
     <!-- <Interpolation/> -->
      <!-- <VBind/> -->
       <!-- <DynamicAttribut/> -->
-      <Event/>
+      <!-- <Event/> -->
+       <Reactive/>
  </section>
 </template>
