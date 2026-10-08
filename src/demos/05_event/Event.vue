@@ -19,10 +19,11 @@ function reset() {
     <button @click="reset">Reset</button>
   </div>
   <div>
-    <input type="number" min="1" v-model.number="value" />
+    <input type="number" min="1" v-model.number="cpt" />
   </div>
   <h4>{{ cpt }}</h4>
 </template>
 
 <style scoped>
+
 </style>
