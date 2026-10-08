@@ -6,7 +6,8 @@
 // import Event from './demos/05_event/Event.vue'
 // import Event from './demos/05_event/FormEvent.vue'
 // import Reactive from './demos/06_reactive/Reactive.vue'
-import Computed from "./demos/07_computed/Computed.vue";
+// import Computed from "./demos/07_computed/Computed.vue";
+import ConditionnalRendering from "./demos/08_conditional_rendering/ConditionalRendering.vue";
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import Computed from "./demos/07_computed/Computed.vue";
     <!-- <DynamicAttribut/> -->
     <!-- <Event/> -->
     <!-- <Reactive/> -->
-    <Computed />
+    <!-- <Computed /> -->
+    <ConditionnalRendering />
   </section>
 </template>
